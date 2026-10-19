@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tolga ❤️ İknur</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #8b0000, #ff4d6d, #400020);
+      min-height: 100vh;
+      padding: 30px 15px;
+      box-sizing: border-box;
+    }
+
+    .kutu {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.13);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 25px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .kalp {
+      font-size: 55px;
+      animation: at 1s infinite alternate;
+    }
+
+    @keyframes at {
+      from { transform: scale(1); }
+      to { transform: scale(1.2); }
+    }
+
+    button {
+      background: white;
+      color: #b00035;
+      border: none;
+      border-radius: 25px;
+      padding: 14px 22px;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    #mesaj {
+      display: none;
+      line-height: 1.8;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="kutu">
+    <div class="kalp">❤️</div>
+
+    <h1>Tolga ❤️ İknur</h1>
+    <h2>Sonsuzluk Aşkımız ♾️</h2>
+
+    <p>
+      İknur'um, sen benim kalbimin en güzel yerindesin.
+      Mesafeler uzak olsa da kalbim hep seninle.
+      İyi ki hayatıma girdin, iyi ki varsın aşkım. ❤️
+    </p>
+
+    <button onclick="mesajiAc()">
+      Sana özel mesajı aç 💌
+    </button>
+
+    <div id="mesaj">
+      <h2>Canım İknur'um ❤️</h2>
+      <p>
+        Her yeni günde seni daha çok seviyorum.
+        Aramızda kilometreler olsa bile sevgim değişmiyor.
+        Hayallerimde sen, dualarımda sen,
+        geleceğe dair umutlarımda yine sen varsın.
+        Birlikte nice güzel günler yaşamak dileğiyle…
+        Seni çok seviyorum! ❤️‍🔥
+      </p>
+      <p>♾️ Tolga ❤️ İknur ♾️</p>
+    </div>
+  </div>
+
+  <footer>Birbirine kalpten bağlı iki insan ❤️</footer>
+
+  <script>
+    function mesajiAc() {
+      document.getElementById("mesaj").style.display = "block";
+    }
+  </script>
+</body>
+</html>
